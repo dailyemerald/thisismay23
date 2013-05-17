@@ -1,0 +1,149 @@
+body {
+	background: #222;
+	background-image: url(../images/bg3.png), url(../images/bg4.png), url(../images/bg.png);
+	background-position: top, bottom, top;
+	background-repeat: repeat-x, repeat-x, repeat;
+}
+.wrapper{
+	max-width: 760px;
+	margin: auto;
+	margin-bottom: 40px;
+	color: #fff;
+	position:relative;
+}
+	
+	a:link {color:b2d235; font-weight:700; text-transform:uppercase; text-decoration: none; font-size:85%; font-family: 'Exo', sans-serif;}
+	a:visited {color:#b2d235;} 
+	a:hover {color:#b2d235;}  
+	a:active {color:#b2d235F;} 
+
+
+.lead {
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;	
+	text-shadow: 1px 1px #333;
+	font-size: 26px;
+	margin-top: 50px;
+}
+.main {
+	font-family: Georgia, serif;
+	font-size: 14px;
+	max-width: 600px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	margin-right:0px;
+	float: left;
+}
+
+.sidebar {
+	font-family: 'Exo', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	float: left;
+	width: 130px; 
+	padding-left: 30px;
+}
+.logo {
+    margin-right: 57%;
+   	margin-left: 43%;
+	margin-top: 50px;
+}
+
+.footer {
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 9px;
+	letter-spacing: 3px;
+	text-align: center;
+	clear: both;
+}
+.bigpic {
+	height: auto;
+	margin-top:30px;
+	margin-bottom:33px;
+}	
+
+ /* Prevent the slideshow from flashing on load */
+    #slides {
+      display: none
+    }
+
+    /* Center the slideshow */
+    .container {
+	  	    margin-top: 30px;
+	  margin-bottom:10px;
+    }
+	
+	 #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+	 margin-right: 5px;
+      float: left;
+	       font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+color: #FFF; 
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+	       font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+color: #FFF; 
+    }
+	
+	    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+	  font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	letter-spacing: 5px;
+color: #FFF; 
+
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+	
+	 .slidesjs-pagination .active {
+      color:#CCC;
+    }
+	
+ @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 760px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 760px
+      }
+    }
