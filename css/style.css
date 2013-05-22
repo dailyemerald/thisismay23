@@ -12,11 +12,18 @@ body {
 	position:relative;
 }
 	
-	a:link {color:b2d235; font-weight:700; text-transform:uppercase; text-decoration: none; font-size:85%; font-family: 'Exo', sans-serif;}
-	a:visited {color:#b2d235;} 
-	a:hover {color:#b2d235;}  
-	a:active {color:#b2d235F;} 
-
+a:link {
+	color:#b2d235; 
+	font-weight:700; 
+	text-transform:uppercase; 
+	text-decoration: none; 
+	font-size:85%; 
+	font-family: 'Exo', 
+	sans-serif;
+}
+a:visited, a:hover, a:active {
+	color:#b2d235;
+} 
 
 .lead {
 	font-family: 'Exo', sans-serif;
@@ -27,10 +34,11 @@ body {
 }
 .main {
 	font-family: Georgia, serif;
-	font-size: 14px;
+	font-size: 18px;
+
 	max-width: 600px;
-	margin-bottom: 20px;
-	line-height: 20px;
+	margin-bottom: 50px;
+	line-height: 1.4em;
 	margin-right:0px;
 	float: left;
 }
@@ -38,11 +46,37 @@ body {
 .sidebar {
 	font-family: 'Exo', sans-serif;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 11px;
+	line-height: 13px;
 	float: left;
 	width: 130px; 
 	padding-left: 30px;
 }
+
+a.pagelink:link { 
+	margin-bottom: 10px; 
+	font-size: 26px; 
+	line-height: 22px; 
+	color: #b2d235; 
+	text-decoration: none; }
+
+a.pagelink:visited { 
+	padding-bottom: 10px; 
+	color: #b2d235; 
+	text-decoration: none; }
+
+a.pagelink:active { 
+	padding-bottom: 10px; 
+	color: #b2d235; 
+	text-decoration: none; 
+}
+
+a.pagelink:hover { 
+	padding-bottom: 10px; 
+	color: #FFFF63; 
+	text-decoration: none; 
+}
+		
 .logo {
     margin-right: 57%;
    	margin-left: 43%;
@@ -79,32 +113,32 @@ body {
     }
 
     #slides .slidesjs-previous {
-	 margin-right: 5px;
+	  margin-right: 5px;
       float: left;
-	       font-family: 'Exo', sans-serif;
-	font-weight: 400;
-	font-size: 30px;
-color: #FFF; 
+	  font-family: 'Exo', sans-serif;
+	  font-weight: 400;
+	  font-size: 30px;
+      color: #FFF; 
     }
 
     #slides .slidesjs-next {
       margin-right: 5px;
       float: left;
-	       font-family: 'Exo', sans-serif;
-	font-weight: 400;
-	font-size: 30px;
-color: #FFF; 
+	  font-family: 'Exo', sans-serif;
+	  font-weight: 400;
+	  font-size: 30px;
+      color: #FFF; 
     }
 	
-	    .slidesjs-pagination {
+	.slidesjs-pagination {
       margin: 6px 0 0;
       float: right;
       list-style: none;
 	  font-family: 'Exo', sans-serif;
-	font-weight: 400;
-	font-size: 10px;
-	letter-spacing: 5px;
-color: #FFF; 
+	  font-weight: 400;
+	  font-size: 10px;
+	  letter-spacing: 5px;
+      color: #FFF; 
 
     }
 
